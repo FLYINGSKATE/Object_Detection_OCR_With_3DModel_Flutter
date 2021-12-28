@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="flutter_ocr"
+        android:label="Sharik Deshmukh"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

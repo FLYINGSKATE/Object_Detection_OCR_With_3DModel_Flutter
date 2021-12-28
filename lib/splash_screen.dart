@@ -18,7 +18,7 @@ class VideoState extends State<Splash> with SingleTickerProviderStateMixin{
   Animation<double> animation;
 
   startTime() async {
-    var _duration = new Duration(seconds: 2);
+    var _duration = new Duration(seconds: 10);
     return new Timer(_duration, navigationPage);
   }
 
@@ -51,30 +51,23 @@ class VideoState extends State<Splash> with SingleTickerProviderStateMixin{
   Widget build(BuildContext context) {
 
     return Scaffold(
-      backgroundColor: Colors.white,
-      body: Stack(
-        fit: StackFit.expand,
-        children: <Widget>[
-          new Column(
-            mainAxisAlignment: MainAxisAlignment.end,
-            mainAxisSize: MainAxisSize.min,
-            children: <Widget>[
-
-              Padding(padding: EdgeInsets.only(bottom: 30.0),child:new Image.asset('assets/powered_by.png',height: 25.0,fit: BoxFit.scaleDown,))
-
-            ],),
-          new Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              new Image.asset(
-                'assets/devs.jpg',
-                width: animation.value * 250,
-                height: animation.value * 250,
-              ),
-            ],
-          ),
-        ],
-      ),
+      backgroundColor: Color(0xff4B317A),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            new Image.asset(
+              'assets/thedetector.gif',
+              width: animation.value * 250,
+              height: animation.value * 250,
+            ),
+            Text("Hi , I'm the Detector!",style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold),
+            ),
+          ],
+        ),
+      )
     );
   }
 }

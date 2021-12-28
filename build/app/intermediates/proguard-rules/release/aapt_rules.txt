@@ -1,0 +1,16 @@
+# Referenced at Z:\Documents\EGDownloads\UnityGames\HappyBirthdayCakePerson\Space_Man\flutter_ocr_demo\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:23
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at Z:\Documents\EGDownloads\UnityGames\HappyBirthdayCakePerson\Space_Man\flutter_ocr_demo\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:28
+-keep class com.example.flutter_ocr.MainActivity { <init>(); }
+# Referenced at Z:\Documents\EGDownloads\UnityGames\HappyBirthdayCakePerson\Space_Man\flutter_ocr_demo\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:71
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at Z:\Documents\EGDownloads\UnityGames\HappyBirthdayCakePerson\Space_Man\flutter_ocr_demo\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:23
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at Z:\Documents\EGDownloads\UnityGames\HappyBirthdayCakePerson\Space_Man\flutter_ocr_demo\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:62
+-keep class io.github.edufolly.fluttermobilevision.ocr.OcrCaptureActivity { <init>(); }
+# Referenced at Z:\Documents\EGDownloads\UnityGames\HappyBirthdayCakePerson\Space_Man\flutter_ocr_demo\build\flutter_mobile_vision\intermediates\packaged_res\release\layout\capture.xml:9
+-keep class io.github.edufolly.fluttermobilevision.ui.CameraSourcePreview { <init>(...); }
+
+# Referenced at Z:\Documents\EGDownloads\UnityGames\HappyBirthdayCakePerson\Space_Man\flutter_ocr_demo\build\flutter_mobile_vision\intermediates\packaged_res\release\layout\capture.xml:14
+-keep class io.github.edufolly.fluttermobilevision.ui.GraphicOverlay { <init>(...); }
+

@@ -1,7 +1,18 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ocr/splash_screen.dart';
 
-void main() => runApp(new MyApp());
+
+List<CameraDescription> cameras;
+
+Future<void> main() async {
+  // initialize the cameras when the app starts
+  WidgetsFlutterBinding.ensureInitialized();
+  cameras = await availableCameras();
+  // running the app
+  runApp(MyApp());
+}
+
 
 class MyApp extends StatelessWidget {
   @override
